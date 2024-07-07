@@ -1,27 +1,16 @@
 # pdf-page-shortener [![Python](https://img.shields.io/badge/python-3.x-blue)](https://www.python.org/)
-✂️ PDF Page Extractor
-Extract a specific number of pages or a page range from multiple PDFs in a folder with just a few lines of code.
+## PDF Page Extractor: Extract Specific Pages from Your PDFs with Ease
 
-This script offers a user-friendly solution for anyone who needs to frequently manipulate PDF pages.
+This Python script automates the process of extracting specific pages from multiple PDFs in a folder. Save time and effort by using this tool to efficiently manage your PDFs.
 
-Prerequisites
+**Prerequisites**
 
-Python 3.x (see badge above)
-PyPDF2 library: pip install PyPDF2
-How to Use
+* Python 3.x (available at [https://www.python.org/downloads/](https://www.python.org/downloads/))
+* PyPDF2 library (install using `pip install PyPDF2`)
 
-Clone or download the repository.
-Navigate to the script's directory. You can use a terminal or command prompt for this.
-Replace the placeholders in the example_usage section of the script with your actual file paths.
-# Example usage (replace with your actual paths and desired number of pages)
-input_folder = "path/to/your/folder/containing/pdfs"
-output_folder = "path/to/your/output/folder"
-num_pages = 3  # Number of pages to extract (or specify a page range as a list: [start_page, end_page])
-Run the script. Use the command python pdf_page_extractor.py (replace with your script's actual filename).
-Example:
+**How to Use**
 
-Successfully extracted 3 pages from /path/to/your/pdf/file.pdf to /path/to/your/output/folder/file_extracted.pdf.
-Additional Notes
-
-The script handles potential errors like missing files or invalid input by printing informative messages to the console.
-You can customize the output filenames by modifying the script's logic for generating them (refer to the code for details).
+1. **Clone or download the repository.** (This step assumes the script exists within a repository)
+2. **Navigate to the script's directory** using your terminal or command prompt.
+3. **Edit the script:** Open the script named `pdf_page_extractor.py` in a text editor.
+4. **Replace placeholders:** In the `example_usage` section at the bottom of the script, update the following variables with your actual file paths and desired number of pages:
